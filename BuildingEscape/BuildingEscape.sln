@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.25807.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{14DF61AA-A7FB-4106-B487-4F156EF19504}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{1CD4FD4D-0E61-41BC-B287-7959A49879F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise", "Enterprise", "{73AE1D1C-B49E-459D-B362-8D2808C6E317}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise", "Enterprise", "{FABC86EB-4DAF-4802-B06B-193B09D5E63F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{737D5E94-7744-43AD-97F5-61BD8D4CCF5E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{7E09F27D-E5CE-443B-B057-66CAA41F0F6A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{AD23C88F-AA4A-436A-B51C-0109127E0FDF}"
 EndProject
@@ -15,7 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Studio", "Intermediate\Proj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildingEscape", "Intermediate\ProjectFiles\BuildingEscape.vcxproj", "{5914AA67-5E20-4997-AA4D-874181AB36D4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{462E079C-1C4C-4E1D-8F79-3348A3DF6D65}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{E0AF7C15-0676-4A2F-B977-83137CD2C931}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\..\..\..\Program Files\Epic Games\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
@@ -123,8 +123,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{AD23C88F-AA4A-436A-B51C-0109127E0FDF} = {14DF61AA-A7FB-4106-B487-4F156EF19504}
-		{13A171DC-B16A-4ACF-B160-19725BFC9F56} = {73AE1D1C-B49E-459D-B362-8D2808C6E317}
-		{5914AA67-5E20-4997-AA4D-874181AB36D4} = {737D5E94-7744-43AD-97F5-61BD8D4CCF5E}
+		{AD23C88F-AA4A-436A-B51C-0109127E0FDF} = {1CD4FD4D-0E61-41BC-B287-7959A49879F3}
+		{13A171DC-B16A-4ACF-B160-19725BFC9F56} = {FABC86EB-4DAF-4802-B06B-193B09D5E63F}
+		{5914AA67-5E20-4997-AA4D-874181AB36D4} = {7E09F27D-E5CE-443B-B057-66CAA41F0F6A}
 	EndGlobalSection
 EndGlobal
