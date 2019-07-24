@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// K-B Enterprises 2019
 
 #pragma once
 
