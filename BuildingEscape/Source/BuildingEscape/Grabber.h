@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "DrawDebugHelpers.h"
 #include "Grabber.generated.h"
 
 
@@ -26,5 +27,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	
+	// How far agead of the player can we reach in cm
+	UPROPERTY(EditAnywhere)
+	float Reach = 100.0f;
 };
