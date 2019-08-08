@@ -44,6 +44,6 @@ private:
 
 	float LastDoorOpenTime;
 
-	AActor* ActorThatOpens; // Remember Pawn inherits from actor
-	AActor* Owner; // The owning door
+	AActor* ActorThatOpens; 
+	AActor* Owner; 
 };
