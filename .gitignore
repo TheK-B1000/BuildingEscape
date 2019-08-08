@@ -212,3 +212,5 @@ _Pvt_Extensions/
 ModelManifest.xml
 
 *.uasset
+*.VC.opendb
+*.sin

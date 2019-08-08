@@ -9,6 +9,7 @@
 #include "Components/InputComponent.h"
 #include "Grabber.generated.h"
 
+#define OUT
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BUILDINGESCAPE_API UGrabber : public UActorComponent
@@ -18,6 +19,11 @@ class BUILDINGESCAPE_API UGrabber : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UGrabber();
+
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+	FVector LineTraceDirecton = PlayerViewPointRotation.Vector();
+	FVector LineTraceEnd = PlayerViewPointLocation + (LineTraceDirecton * Reach);
 
 protected:
 	// Called when the game starts
@@ -50,5 +56,7 @@ private:
 
 	// Return hit for the first physcis body in reach
 	FHitResult GetFirstPhysicsBodyInReach() const;
+
+	void ActorHit(FHitResult& Hit) const;
 
 };
