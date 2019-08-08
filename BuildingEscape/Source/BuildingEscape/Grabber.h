@@ -42,6 +42,12 @@ private:
 	
 	UInputComponent* InputComponent = nullptr;
 
+	/// Returns current end of reach line
+	FVector GetReachLineEnd();
+
+	/// Returns current start of reach line
+	FVector GetReachLineStart();
+
 	/// Ray-cast and grab what's in reach
 	void Grab();
 	
@@ -55,8 +61,5 @@ private:
 	void SetupInputComponent();
 
 	// Return hit for the first physcis body in reach
-	FHitResult GetFirstPhysicsBodyInReach() const;
-
-	void ActorHit(FHitResult& Hit) const;
-
+	FHitResult GetFirstPhysicsBodyInReach();
 };
